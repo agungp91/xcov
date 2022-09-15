@@ -31,7 +31,7 @@ module Xcov
         message = Slack::Notifier::Util::LinkFormatter.format(Xcov.config[:slack_message])
         results = notifier.ping(
           message,
-          icon_url: 'https://s3-eu-west-1.amazonaws.com/fastlane.tools/fastlane.png',
+          icon_url: 'https://avatars.slack-edge.com/2022-09-14/4071856099302_3ee9aa3d923c1a7d568f_48.png',
           attachments: attachments
         )
 
